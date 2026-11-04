@@ -1,0 +1,144 @@
+{
+  "pooled": {
+    "buffalo_l (baseline)": {
+      "EER": 6.486095623083354,
+      "TAR_1e2": 80.51470588235294,
+      "TAR_1e3": 63.41911764705883,
+      "TAR_1e4": NaN
+    },
+    "FNO adapter": {
+      "EER": 6.494558723963517,
+      "TAR_1e2": 80.63725490196079,
+      "TAR_1e3": 63.48039215686274,
+      "TAR_1e4": NaN
+    },
+    "MLP adapter": {
+      "EER": 5.7488931591594,
+      "TAR_1e2": 83.63970588235294,
+      "TAR_1e3": 67.40196078431373,
+      "TAR_1e4": NaN
+    }
+  },
+  "per_fold": {
+    "buffalo_l (baseline)": [
+      {
+        "EER": 7.813856807919417,
+        "TAR_1e2": 74.73958333333333,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 5.218075539568344,
+        "TAR_1e2": 89.23611111111111,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 7.38836257396914,
+        "TAR_1e2": 79.25311203319502,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 5.702707551259826,
+        "TAR_1e2": 82.37082066869301,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 6.900319199243378,
+        "TAR_1e2": 78.2051282051282,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      }
+    ],
+    "FNO adapter": [
+      {
+        "EER": 7.813856807919417,
+        "TAR_1e2": 74.73958333333333,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 5.210081934452436,
+        "TAR_1e2": 89.23611111111111,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 7.121156537789743,
+        "TAR_1e2": 79.25311203319502,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 5.5248452507500465,
+        "TAR_1e2": 82.37082066869301,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 6.900319199243378,
+        "TAR_1e2": 78.2051282051282,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      }
+    ],
+    "MLP adapter": [
+      {
+        "EER": 7.029576603566051,
+        "TAR_1e2": 78.125,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 3.8201938449240593,
+        "TAR_1e2": 92.01388888888889,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 6.22832152636284,
+        "TAR_1e2": 85.47717842323651,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 5.165776633905801,
+        "TAR_1e2": 86.01823708206688,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      },
+      {
+        "EER": 5.63813577133249,
+        "TAR_1e2": 82.82051282051282,
+        "TAR_1e3": NaN,
+        "TAR_1e4": NaN
+      }
+    ]
+  },
+  "best_epochs": {
+    "fno": [
+      20,
+      170,
+      140,
+      20,
+      20
+    ],
+    "mlp": [
+      90,
+      80,
+      170,
+      140,
+      190
+    ]
+  },
+  "verdicts": {
+    "FNO adapter": "no clear difference from buffalo_l",
+    "MLP adapter": "BETTER than buffalo_l (clear)",
+    "fno_vs_mlp": "MLP clearly better than FNO"
+  },
+  "n_people": 80,
+  "n_images": 615,
+  "saved": "adapter_out\\fno_adapter.pth"
+}

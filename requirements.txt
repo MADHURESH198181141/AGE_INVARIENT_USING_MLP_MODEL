@@ -1,0 +1,9 @@
+numpy
+opencv-python-headless
+onnxruntime
+insightface
+fastapi
+uvicorn
+python-multipart
+torch   # only to READ the adapter .pth once at startup
+streamlit

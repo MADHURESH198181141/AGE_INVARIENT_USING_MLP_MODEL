@@ -1,0 +1,25 @@
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+.venv/
+
+# Large ONNX and archived model weights (>100MB exceeds GitHub push limits)
+models/
+*.onnx
+*.pkl
+archive/**/*.pth
+
+# Datasets (thousands of raw images)
+ALL/
+DATA/
+DATA2/
+DATA3/
+DATASET/
+
+# Temporary / cleanup holding directory
+_to_delete/
+
+# System & IDE
+.vscode/
+.idea/
+Thumbs.db

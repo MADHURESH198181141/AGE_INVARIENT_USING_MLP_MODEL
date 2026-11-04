@@ -1,0 +1,59 @@
+{
+  "n_people": 25,
+  "impostor_pairs": 600,
+  "metrics": {
+    "buffalo_l": {
+      "EER": 15.500000000000004,
+      "1/10": 20.0,
+      "1/100": NaN,
+      "1/1,000": NaN,
+      "1/10,000": NaN
+    },
+    "buffalo_l + MLP adapter": {
+      "EER": 12.0,
+      "1/10": 12.0,
+      "1/100": NaN,
+      "1/1,000": NaN,
+      "1/10,000": NaN
+    },
+    "FNO (from scratch)": {
+      "EER": 43.333333333333336,
+      "1/10": 88.0,
+      "1/100": NaN,
+      "1/1,000": NaN,
+      "1/10,000": NaN
+    },
+    "IResNet50 (from scratch)": {
+      "EER": 44.08333333333333,
+      "1/10": 92.0,
+      "1/100": NaN,
+      "1/1,000": NaN,
+      "1/10,000": NaN
+    }
+  },
+  "eer_ci95": {
+    "buffalo_l": [
+      7.730346448100983,
+      24.110793529055044
+    ],
+    "buffalo_l + MLP adapter": [
+      4.03882696789715,
+      19.966494845360824
+    ],
+    "FNO (from scratch)": [
+      35.04130094043887,
+      52.04175740418118
+    ],
+    "IResNet50 (from scratch)": [
+      39.77306230355011,
+      53.54093970848058
+    ]
+  },
+  "seconds_per_image_1thread": {
+    "buffalo_l  (detect + align + embed)": 1.5897977499989793,
+    "buffalo_l  (embedding network only)": 0.5295422499766573,
+    "MLP adapter (extra cost)": 0.00012535002315416932,
+    "FNO (from scratch)  (network only)": 0.035682399990037084,
+    "IResNet50 (from scratch)  (network only)": 0.3063223999924958
+  }
+}

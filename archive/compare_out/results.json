@@ -1,0 +1,120 @@
+{
+  "fno": {
+    "people": 25,
+    "genuine_pairs": 25,
+    "impostor_pairs": 600,
+    "EER_%": 43.333,
+    "FNMR_%@FMR10": 88.0,
+    "FNMR_%@FMR100": "unreliable(96.0)",
+    "FNMR_%@FMR1000": "unreliable(nan)",
+    "FNMR_%@FMR10000": "unreliable(nan)",
+    "params_M": 11.1,
+    "train_min": 0.9,
+    "sec_per_image_1thread": 0.022,
+    "eer_history": [
+      [
+        5,
+        40.667
+      ],
+      [
+        10,
+        48.583
+      ],
+      [
+        15,
+        47.75
+      ],
+      [
+        20,
+        48.0
+      ],
+      [
+        25,
+        44.0
+      ],
+      [
+        30,
+        44.0
+      ],
+      [
+        35,
+        44.0
+      ],
+      [
+        40,
+        40.0
+      ],
+      [
+        45,
+        40.917
+      ],
+      [
+        50,
+        40.417
+      ],
+      [
+        55,
+        41.0
+      ]
+    ]
+  },
+  "iresnet50": {
+    "people": 25,
+    "genuine_pairs": 25,
+    "impostor_pairs": 600,
+    "EER_%": 44.583,
+    "FNMR_%@FMR10": 88.0,
+    "FNMR_%@FMR100": "unreliable(100.0)",
+    "FNMR_%@FMR1000": "unreliable(nan)",
+    "FNMR_%@FMR10000": "unreliable(nan)",
+    "params_M": 43.6,
+    "train_min": 4.1,
+    "sec_per_image_1thread": 0.184,
+    "eer_history": [
+      [
+        5,
+        48.5
+      ],
+      [
+        10,
+        48.0
+      ],
+      [
+        15,
+        51.833
+      ],
+      [
+        20,
+        48.083
+      ],
+      [
+        25,
+        48.583
+      ],
+      [
+        30,
+        44.0
+      ],
+      [
+        35,
+        48.0
+      ],
+      [
+        40,
+        45.0
+      ],
+      [
+        45,
+        43.75
+      ],
+      [
+        50,
+        44.75
+      ],
+      [
+        55,
+        44.083
+      ]
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "n_people": 25,
+  "impostor_pairs": 600,
+  "metrics": {
+    "buffalo_l": {
+      "EER": 15.500000000000004,
+      "1/10": 20.0,
+      "1/100": NaN,
+      "1/1,000": NaN,
+      "1/10,000": NaN
+    },
+    "buffalo_l + MLP adapter": {
+      "EER": 12.0,
+      "1/10": 12.0,
+      "1/100": NaN,
+      "1/1,000": NaN,
+      "1/10,000": NaN
+    }
+  },
+  "eer_ci95": {
+    "buffalo_l": [
+      7.730346448100983,
+      24.110793529055044
+    ],
+    "buffalo_l + MLP adapter": [
+      4.03882696789715,
+      19.966494845360824
+    ]
+  },
+  "seconds_per_image_1thread": {
+    "buffalo_l  (detect + align + embed)": 1.3706405999837443,
+    "buffalo_l  (embedding network only)": 0.5076768499566242,
+    "MLP adapter (extra cost)": 8.760002674534917e-05
+  }
+}
